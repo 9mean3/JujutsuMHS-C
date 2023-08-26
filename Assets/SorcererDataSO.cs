@@ -27,6 +27,7 @@ public class SorcererDataSO : ScriptableObject
     public string SorceryDescription;
     [Header("Stats")]
     public Ranks Grade;
+    public State State;
     public int Power;
     public int Mood;
 }
